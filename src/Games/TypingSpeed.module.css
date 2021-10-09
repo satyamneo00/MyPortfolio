@@ -1,0 +1,20 @@
+.main{
+    width: 50%;
+    margin-left: 25%;
+}
+.main .startbtn{
+    background: none;
+    width: 100px;
+    height: 50px;
+    border: 1.5pt solid #454545;
+    margin-left: 30%;
+    cursor: pointer;
+
+}
+.main .box{
+    
+}
+.main .box textarea{
+    width: 100%;
+    height: 200px;
+}
