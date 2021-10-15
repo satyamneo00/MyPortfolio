@@ -7,6 +7,7 @@ import {useState} from 'react';
 import Animated from 'react-mount-animation';
 import {Route, Switch} from 'react-router';
 import Work from './Pages/Work';
+import GamesPage from './Pages/GamesPage';
 
 function App() {
     const [landingVisible, setLandingVisible] = useState(true);
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path="/work" exact>
                 <Work/>
+            </Route>
+            <Route path="/games" exact>
+                <GamesPage/>
             </Route>
             <Route path="*">
             {

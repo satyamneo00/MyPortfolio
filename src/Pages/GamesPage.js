@@ -1,13 +1,12 @@
-import MyWork from "../Components/MyWork";
 import Games from "../Games/Games";
 import TicTacToe from "../Games/TicTacToe";
 import TypingSpeed from "../Games/TypingSpeed";
 
-const Work=()=>{
+const GamesPage=()=>{
     return (
         <div>
-           <MyWork/>
+           <Games/>
         </div>
     )
 }
-export default Work;
+export default GamesPage;

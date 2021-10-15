@@ -6,7 +6,7 @@ const Header=()=>{
             <div className={styles.nav}>
                 <ul>
                     <li><NavLink to="/about">About</NavLink></li>
-                    <li><a href="#">Background</a></li>
+                    <li><NavLink to="/games">Games</NavLink></li>
                     <li><NavLink to="/work">Work</NavLink></li>
                 </ul>
             </div>

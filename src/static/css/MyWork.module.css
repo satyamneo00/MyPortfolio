@@ -1,0 +1,27 @@
+.mywork{
+    margin-top: 100px;
+}
+.neatform{
+    width: 80%;
+    margin-left:10%;
+}
+.seprator{
+    position: relative;
+    border-top: 1px solid #454545;
+}
+.neatform p{
+    line-height: 2;
+    word-wrap: none;
+}
+.neatform a{
+    margin-right: 20px;
+    font-size: large;
+}
+a.github{
+    color:#000;
+}
+
+
+a.npm{
+    color:#BB2E3E;
+}
